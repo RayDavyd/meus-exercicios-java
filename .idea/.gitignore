@@ -8,3 +8,12 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# Ignorar arquivos compilados em todas as pastas
+*.class
+**/out/
+**/target/
+
+# Ignorar configurações do IntelliJ em todas as pastas
+**/.idea/
+*.iml
